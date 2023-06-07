@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutencraft/product-comparison-block",
+  "version": "1.0.0",
+  "title": "Product Comparison Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A block that allows customers to compare two or more products side by side, with options to show or hide different attributes, ratings, and prices.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "product-comparison-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
